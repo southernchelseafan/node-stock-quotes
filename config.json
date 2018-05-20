@@ -1,0 +1,5 @@
+{
+  "expressport": "3434",
+  "quotekey" : "YK2C1VSON4G8QFPG",
+  "mongodb": "mongodb://localhost:37017/stockquotes"
+}
