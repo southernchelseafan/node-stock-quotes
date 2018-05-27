@@ -1,5 +1,5 @@
 {
   "expressport": "3434",
   "quotekey" : "demoplaceholder",
-  "mongodb": "mongodb://localhost:37017/stockquotes"
+  "mongodb": "mongodb://10.0.1.12:37017/stockquotes"
 }

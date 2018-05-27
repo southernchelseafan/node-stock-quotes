@@ -1,0 +1,10 @@
+api:
+  image: stockquotesapi
+  ports:
+   - "3434:3434"
+  links:
+   - mongodb
+mongodb:
+  image: mongo
+  ports:
+    - "37017:27017"

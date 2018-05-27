@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "mocha --timeout 20000"
   },
   "repository": {
     "type": "git",
@@ -23,8 +24,11 @@
   "homepage": "https://github.com/southernchelseafan/node-stock-quotes#readme",
   "devDependencies": {
     "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
     "express": "^4.16.3",
     "express-jwt": "^5.3.1",
+    "mocha": "^5.2.0",
     "mongoose": "^5.1.1",
     "nodemon": "^1.17.4",
     "request": "^2.86.0"

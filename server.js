@@ -13,5 +13,4 @@ app.use(bodyParser.json());
 
 http.listen(config.expressport);
 console.log('Running node express server...');
-
-mongoose.connect(config.mongodb);
+module.exports = app;
